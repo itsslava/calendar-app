@@ -1,7 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Calendar from './components/calendar.vue';
+</script>
 
 <template>
-	<div>Calendar app</div>
+	<div class="app"><Calendar /></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #fafafa;
+}
+</style>
